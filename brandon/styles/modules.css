@@ -1,0 +1,32 @@
+nav, aside, div, footer{
+  width:480;
+  background: gray;
+  display:block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  text-align: center;
+}
+
+nav {
+  height: 75px;
+}
+
+aside {
+  height: 150px;
+}
+
+#c, #d {
+  height: 125px;
+}
+
+#e, #f, #g, #h {
+  height: 250px;
+}
+
+footer section {
+  height: 80px;
+}
+
+@media (min-width: 960px) {
+
+}
